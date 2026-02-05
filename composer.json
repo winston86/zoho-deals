@@ -1,0 +1,41 @@
+{
+    "name": "winston86/zoho-deals",
+    "description": "A Laravel component for managing or displaying Zoho Deals.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "winston86",
+            "homepage": "https://github.com/winston86"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/view": "^10.0|^11.0|^12.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Winston86\\ZohoDeals\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Winston86\\ZohoDeals\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Winston86\\ZohoDeals\\ZohoDealsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
