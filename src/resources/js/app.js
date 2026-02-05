@@ -3,6 +3,7 @@ import DealsList from '@zoho/components/DealsList.vue';
 import DealForm from '@zoho/components/DealForm.vue';
 import AccountsList from '@zoho/components/AccountsList.vue';
 import AccountForm from '@zoho/components/AccountForm.vue';
+import '../css/app.css';
 
 const init = () => {
     const el = document.getElementById('zoho-app');

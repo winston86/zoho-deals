@@ -7,7 +7,7 @@ import vue from '@vitejs/plugin-vue';
 export default defineConfig({
     plugins: [
         laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js', '@zoho/app.js', , '@zohoStyle/app.css'],
+            input: ['resources/css/app.css', 'resources/js/app.js', '@zoho/app.js'],
             refresh: true,
         }),
     vue({ // 2. Initialize the plugin
@@ -24,7 +24,6 @@ export default defineConfig({
         alias: {
             'vue': 'vue/dist/vue.esm-bundler.js', // 3. Helpful alias for Blade templates
             '@zoho': path.resolve(__dirname, 'vendor/winston86/zoho-deals/src/resources/js'),
-            '@zohoStyle': path.resolve(__dirname, 'vendor/winston86/zoho-deals/src/resources/css'),
             'axios': path.resolve(__dirname, 'node_modules/axios'),
         },
     preserveSymlinks: true
