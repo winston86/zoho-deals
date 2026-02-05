@@ -17,6 +17,6 @@
 6. Set other env settings
 7. `php artisan key:generate`
 8. `php artisan migrate`, `php artisan optimize:clear`
-9. `npm install @vitejs/plugin-vue --save-dev`
+9. `npm install @vitejs/plugin-vue --save-dev && npm install ./vendor/winston86/zoho-deals`
 10. Setup server `npm run dev` or `php artisan serve`
 11. Try to access `/deals` and `/accounts` in browser
