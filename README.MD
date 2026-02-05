@@ -17,5 +17,6 @@
 6. Set other env settings
 7. `php artisan key:generate`
 8. `php artisan migrate`, `php artisan optimize:clear`
-9. Setup server `npm run dev`
-10. Try to access `/deals` and `/accounts` in browser
+9. `npm install @vitejs/plugin-vue --save-dev`
+10. Setup server `npm run dev` or `php artisan serve`
+11. Try to access `/deals` and `/accounts` in browser
